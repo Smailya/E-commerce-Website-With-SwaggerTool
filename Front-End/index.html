@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>E-commerce Store</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Classic Man Store</h1> <!-- Main heading -->
+    </header>
+
+
+    <div>
+        <a href="#" onclick="fetchClothingItems()">
+            <img src="https://img.freepik.com/premium-photo/collection-men-s-clothing-including-jacket-pants-hat_793585-43.jpg" alt="View Clothing Items" width="150">
+            Buy Clothing
+        </a>
+       
+        <a href="#" onclick="fetchShoeItems()">
+            <img src="https://d1fufvy4xao6k9.cloudfront.net/images/blog/posts/2023/09/hockerty_wedding_groom_shoes_1e8487ba_9806_4fd7_9156_3f0498adefe9.jpg" alt="View Shoe Items" width="150">
+            Buy Shoes
+        </a>
+     
+        <a href="#" onclick="fetchHygieneItems()">
+            <img src="https://healthcompassng.com/rdscn/uploads/2023/05/personal_hygeine_hero.jpg" alt="View Hygiene Items" width="150">
+            Buy Hygiene
+        </a>
+    </div>
+
+
+    <main id="item-list">
+        <h2>Available Items</h2> <!-- Subheading for available items -->
+        <div id="items"></div> <!-- Container for items -->
+    </main>
+
+
+    <footer>
+        <p>&copy; Classic Man Store</p> <!-- Footer content -->
+    </footer>
+
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
